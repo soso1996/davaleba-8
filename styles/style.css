@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex1{
+    width: 100%;
+    justify-content: space-around;
+}
+.flexito{
+    margin-top: 50px;
+}
+header{
+    width: 100%;
+    height: 94px;
+    padding-left: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+
+}
+header h1{
+   
+}
+
+header ul{
+    width: 320px;
+    margin-right: 770px;
+}
+header ul a{
+    font-family: Roboto;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 18px;
+    position: relative;
+}
+header ul a:before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+}
+header ul a:hover:before{
+    width: 100%;
+}
+.track{
+    width: 300px;
+    height: 270px;
+    background-color: #ffffff;
+    
+}
+.track .mart{
+    width: 300px;
+    height: 244px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    position: relative;
+}
+.track .mart .kvad{
+    width: 25%;
+    height: 64px;
+    background-color: #ffffff;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    float: left;
+}
+.track p a{
+    font-size: 12px;
+    font-family: Roboto;
+    margin-top: 8px;
+    color: black;
+}
+.track .mart .kvad img{
+    width: 100%;
+    height: 100%;
+}
+.like{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.like img{
+    width: 100%;
+    height: 100%;
+    
+}
+.like:hover img{
+    animation: ferebisshecvla1 2s;
+}
+
+.mart h2{
+    font-size: 18px;
+    font-family: Roboto;
+    margin-left: 12px;
+    margin-bottom: 12px;
+
+}
+.mart p{
+    font-size: 14px;
+    font-family: Roboto;
+    margin-left: 12px;
+}
+main .hits{
+    font-size: 24px;
+    font-family: Roboto;
+    margin: 42px 108px;
+    text-transform: capitalize;
+}
+
+@keyframes ferebisshecvla1{
+    from{background-color: #ffffff}
+    to{background-color: #bba215}
+}
+
+.social{
+    width: 50px;
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 110px;
+    right: 0;
+    /* animation: ferebisshecvla 2s infinite; */
+}
+.social:hover{
+    animation: ferebisshecvla 2s;
+}
+.social .socialimg{
+    width: 100%;
+    height: 50%;
+    /* animation: ferebisshecvla 2s ; */
+
+}
+.social .socialimg img{
+    width: 100%;
+}
+@keyframes ferebisshecvla{
+    from{background-color: #ffffff}
+    to{background-color: #4115bb}
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 354px;
+    padding-top: 28px;
+}
+footer p{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+footer p img{
+    width: 100%;
+    height: 100%;
+}
+.flex3{
+    flex-direction: column;
+    margin-top: 28px;
+    
+}
+.flex3 a{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+/* -----====-----playlist-------------- */
+
+.playlist{
+    width: 280px;
+    height: 360px;
+    background-color: #ffffff;
+    padding-left: 4px;
+    box-shadow: 0 0 0 black;
+    border-radius: 0;
+    
+}
+.playlist:hover{
+    width: 290px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.137);
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.playlist h2{
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+.playlist p{
+    text-align: justify;
+    font-family: Roboto;
+    margin-top: 8px;
+    word-spacing: 6px;
+    transition: 2s;  
+}
+.fleks{
+    margin-top: 50px;
+    padding-left: 110px;
+}
+.notebi{
+    width: 288px;
+    height: 66px;
+    background-color: #ffffff;
+    margin: 46px auto;
+}
+.notebi .notiko{
+    width: 25%;
+    height: 66px;
+    background-color: #ffffff;
+    
+}
+.thanks{
+    font-size: 36px;
+    font-family: Roboto;
+    margin: 108px auto;
+    text-align: center;
+}
+.all{
+    font-size: 18px;
+    font-family: Roboto;
+    margin: 50px auto;
+    color: #ffffff;
+}
